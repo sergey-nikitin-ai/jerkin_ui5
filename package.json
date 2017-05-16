@@ -1,0 +1,16 @@
+{
+    "name": "jerkin",
+    "version": "1.0.0",
+    "description": "",
+    "dependencies": {
+        "express": "*"
+    },
+    "scripts": {
+        "start": "npm install && node server.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "server": {
+    	"port": 3000
+    }
+}
