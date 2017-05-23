@@ -9,12 +9,12 @@ Feature: Lemmings Have Names Now
 
   Scenario: Save lemmings with one row of data
     When I click on the life saving button 5 times
-    Then I can see the following named lemmings:
+    Then Я могу видеть следующие имена лемингов:
       | Alice | Bob | Charlie | David | Elektra |
 
   Scenario: Save lemmings with one column of data
     When I click on the life saving button 5 times
-    Then I can see the following named lemmings:
+    Then Я могу видеть следующие имена лемингов:
       | Alice   |
       | Bob     |
       | Charlie |
@@ -23,7 +23,7 @@ Feature: Lemmings Have Names Now
 
   Scenario: Save lemmings with one element of data
     When I click on the life saving button
-    Then I can see the following named lemmings:
+    Then Я могу видеть следующие имена лемингов:
       | Alice |
 
   Scenario Outline: Using a Scenario Outline to Save Lemmings

@@ -65,7 +65,7 @@ sap.ui.define([
         }.bind(this));
       });
 
-      this.register(/^I can see the following named lemmings:$/i, function(aDataTable) {
+      this.register(/^Я могу видеть следующие имена лемингов:$/i, function(aDataTable) {
         aDataTable.forEach(function(sLemmingName, iLemmingId) {
           oOpa5.waitFor({
             id: "lemming-name-" + (iLemmingId + 1),
